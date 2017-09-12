@@ -62,11 +62,11 @@
 </item>
  
 <item>
-<title>[COLOR aqua][/COLOR]</title>
+<title>[COLOR aqua]Movistar + Alfondygital[/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-<externallink>http://adryanlist.org/adryan/esp.xml</externallink>
+<externallink>https://raw.githubusercontent.com/alfilodeloimposible/superibai/master/movistar.xml</externallink>
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Movistar+ España[/COLOR] </title>
@@ -74,17 +74,9 @@
 <thumbnail>http://adryanlist.org/adryan/img/esp.png</thumbnail>
 <fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/esp.xml</externallink>
-
-
 </item>
  
-<item>
-<title>[COLOR yellow]Movistar+ Opción 2[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/alfilodeloimposible/superibai/master/lprueba.xml</externallink>
-</item>
+
 <item>
 <title>[COLOR yellow]Juego de Tronos[/COLOR]</title>
 <thumbnail></thumbnail>
