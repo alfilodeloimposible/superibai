@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<item>
+<title>[COLOR lime]•[/COLOR][COLOR aquamarine]  [B]La Liga[/B][/COLOR] [COLOR lightslategray](acestreams) [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<item><title>[COLOR lightgreen][makelist.param1] [COLOR silver] [makelist.param2]  [COLOR skyblue] [makelist.param4][/COLOR][/COLOR][/COLOR]  [COLOR deepskyblue] [makelist.param5][/COLOR] </title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Adryanlist+[makelist.param4]</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://arenavision2017.tk/$doregex[canal]</page>
+			<referer>http://arenavision2017.tk/</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			<regex>
+			<name>canal</name> 
+			<expres>$pyFunction:'[makelist.param5]'.replace('1','01').replace('2','02').replace('3','03').replace('4','04').replace('5','05').replace('6','06').replace('7','07').replace('8','08').replace('9','09')</expres>
+			<page></page>
+			</regex>
+			
+			<thumbnail>http://adryanlist.org/adryan/img/acestream.jpg</thumbnail>
+<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+
+</item>	
+]]></listrepeat>
+<expres><![CDATA[230px">(.*?)<[\w\W\s]{0,50}px">(.*?)CEST[\w\W\s]{0,53}px">(.*?)<[\w\W\s]{0,53}SPANISH LA LIGA[\w\W\s]{0,50}px">(.*?)<[\w\W\s]{0,50}px">([0-9]+)]]></expres>
+<page>http://arenavision2017.tk/iguide</page>
+<Agent>Mozilla</Agent>
+<referer>http://arenavision2017.tk/iguide</referer>
+<setcookie>beget=begetok</setcookie>
+</regex><thumbnail>http://adryanlist.org/adryan/img/laliga.png</thumbnail>
+	<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+
+</item>
+
+<item>
+<title>[COLOR blue]Roja Directa[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/alfilodeloimposible/Ibai/master/rojadirecta.xml</externallink>
+</item>
+ 
+ 
+<item>
+<title>[COLOR skyblue]TV 24/7[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/alfilodeloimposible/Ibai/master/TV%2024_7.m3u</externallink>
+</item>
+
+ 
+<item>
+<title>[COLOR lime]Tdt[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/alfilodeloimposible/Ibai/master/tdt.m3u</externallink>
+</item>
+ 
+<item>
+<title>[COLOR aqua]Movistar+[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/alfilodeloimposible/Ibai/master/movistar.m3u</externallink>
+</item>
+ 
+<item>
+<title>[COLOR yellow]Movistar+ Opción 2[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/alfilodeloimposible/Ibai/master/lprueba.xml</externallink>
+</item>
+<item>
+<title>[COLOR yellow]Juego de Tronos[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/alfilodeloimposible/Ibai/master/Juego-De-Tronos-Castellano(t1).m3u</externallink>
+</item>
+<item>
+<title>[COLOR red]Deportes( Being FR)[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/alfilodeloimposible/Ibai/master/deportes.m3u</externallink>
+</item>
+<item>
+<title>[COLOR cyan]Películas Oeste[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/alfilodeloimposible/Ibai/master/peliculas%20oeste.m3u</externallink>
+</item>
+<item>
+<title>[COLOR yellow]Películas Thriller[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/alfilodeloimposible/Ibai/master/Pelis%20Thriller.m3u</externallink>
+</item>
+
+<item>
+<title>[COLOR green]Películas Ficción[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/alfilodeloimposible/Ibai/master/lista%20pelis%20ficci%C3%B3n.m3u</externallink>
+</item>
+ 
