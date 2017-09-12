@@ -62,11 +62,20 @@
 </item>
  
 <item>
-<title>[COLOR aqua]Movistar+[/COLOR]</title>
+<title>[COLOR aqua][/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/alfilodeloimposible/superibai/master/movistar.xml</externallink>
+<externallink>http://adryanlist.org/adryan/esp.xml</externallink>
+
+<item>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Movistar+ España[/COLOR] </title>
+<link>http://ignorame</link>
+<thumbnail>http://adryanlist.org/adryan/img/esp.png</thumbnail>
+<fanart>http://adryanlist.org/adryan/img/fanart.jpg</fanart>
+<externallink>http://adryanlist.org/adryan/esp.xml</externallink>
+
+
 </item>
  
 <item>
