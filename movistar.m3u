@@ -1,8 +1,7 @@
 #EXTM3U
-#EXTINF:-1,Tnt
-http://edge9206.applive.online/live/vertntesp65a5b8508dd5e287/index.m3u8|User-Agent=Mozilla 5
+
 #EXTINF:-1,SERIES
-http://edge5202.livesports.pw/live/vermseries9492273540e14a5/index.m3u8|User-Agent=Mozilla 5
+http://edge9206.applive.online/live/vertntesp65a5b8508dd5e287/index.m3u8|User-Agent=Mozilla 5
 #EXTINF:-1,SERIES XTRA
 http://edge5204.livesports.pw/live/vera6669184f0b71095624027/index.m3u8|User-Agent=Mozilla 5
 #EXTINF:-1,FOX
