@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+	<channel>
+    <name>[COLOR=green]-----[/COLOR][COLOR=orange]► E S P A Ñ A  [COLOR gray] Canales de España : Antena 3 • Telecinco • Cuatro • La Sexta • TDT • Energy • FDF • Divinity • Nova • Neox • Calle 13 • Discovery • Natgeo • Historia • La 1 • Canales + • Deportes • Axn • TNT • Fox   [/COLOR] [/COLOR][COLOR=green]-----[/COLOR]</name>
+    <thumbnail>http://i.imgur.com/oxTNPnp.png</thumbnail>
+    <fanart>http://adrian.kodistream.info/fanart.jpg</fanart>
+        <items>
+           
+	
+	
+
+
+	 
+	 
+	  
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]TDT[/B] [/COLOR][COLOR lightblue][I]  [/I][/COLOR]</title>
+<link>NA</link>
+<externallink>http://adryanlist.org/adryan/tdt.xml</externallink>
+<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>
+</item>	
+	
+<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]DIGITAL ESP[/B] [/COLOR][COLOR lightblue][I]  [/I][/COLOR]</title>
+<link>NA</link>
+<externallink>http://adryanlist.org/adryan/digital.xml</externallink>
+<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>
+</item>	
+		
+	<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]MOVISTAR +[/B] [/COLOR][COLOR lightblue][I]  [/I][/COLOR]</title>
+<link>NA</link>
+<externallink>http://adryanlist.org/adryan/movistarplus.xml</externallink>
+<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>
+</item>	
+	
+	
+		<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]DEPORTES  [/B] [/COLOR][COLOR lightblue][I]  [/I][/COLOR]</title>
+<link>NA</link>
+<externallink>http://adryanlist.org/adryan/espdep.xml</externallink>
+<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>
+</item>	
+	
+	
+			<item>
+<title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]LOCALES [/B] [/COLOR][COLOR lightblue][I]  [/I][/COLOR]</title>
+<link>NA</link>
+<externallink>http://adryanlist.org/adryan/localesesp.xml</externallink>
+<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>
+</item>	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+ 
+				<item>
+	<title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]Lista España[/B] [/COLOR][COLOR lightblue][I]opcion 1[/I][/COLOR]  [B]      [/B]</title>
+<link>NA</link>
+<externallink>http://adryanlist.org/adryan/esp.m3u</externallink>
+ <thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>
+			</item>	
+			
+
+ 
+
+
+
+
+<itm>
+	<title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]Lista España[/B] [/COLOR][COLOR lightblue][I]opcion 1[/I][/COLOR]  [B]      [/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+	<title>[makelist.param1]</title>
+	<link>[makelist.param2]|User-Agent=stagefright</link>
+	<thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>http://www.exabytetv.info/ESP.m3u</page>
+<agent>$doregex[it]</agent>
+<cookieJar></cookieJar>
+</regex>
+<name>it</name>	 
+<expres>Agent:"(.*?)";</expres>	 
+<page>http://adryanlist.org/adryan/fuckit.php</page> 
+</regex>
+</item>	
+
+
+
+
+
+
+			
+			
+			
+			
+
+			
+			
+<iem>
+	<title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]Lista España[/B] [/COLOR][COLOR lightblue][I]opcion 2[/I][/COLOR]  [COLOR lightslategray] [B]f4mtester [/B] [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+	<title>[makelist.param1]</title>
+	<link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=HLSRETRY&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR lightblue]AdryanList[/COLOR] [makelist.param1]</link>
+	<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-.*?,(.*).*\n.*?(?=http|rtmp|rtsp|mms)(.*[\d|\w])</expres>
+<page>http://www.exabytetv.info/ESP.m3u</page>
+<agent>ipad</agent>
+</regex>
+<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>
+</item>
