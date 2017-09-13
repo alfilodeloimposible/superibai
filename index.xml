@@ -67,20 +67,14 @@
 <fanart></fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/alfilodeloimposible/superibai/master/tdt.m3u</externallink>
-</item>
- 
-<item>
-<title>[COLOR purpure]•[COLOR aqua]Movistar + Alfondygital[/COLOR]</title>
-<thumbnail>http://imagenpng.com/wp-content/uploads/2015/03/movistar_logo_sombra.png</thumbnail>
-<fanart></fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/alfilodeloimposible/superibai/master/movistar.xml</externallink>
+</item> 
+
 
 <item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Movistar+ España[/COLOR] </title>
+<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Movistar + [/COLOR] </title>
 <link>http://ignorame</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>http://imagenpng.com/wp-content/uploads/2015/03/movistar_logo_sombra.png</thumbnail>
+<fanart>https://files.informabtl.com/uploads/2009/05/iconos-movistar.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/esp.xml</externallink>
 </item>
  
