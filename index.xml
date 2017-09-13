@@ -92,6 +92,7 @@
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/alfilodeloimposible/superibai/master/Juego-De-Tronos-Castellano(t1).m3u</externallink>
 </item>
+
 <item>
 <title>[COLOR orange]*JUEGO [/COLOR][COLOR skyblue]DE [/COLOR][COLOR orange]TRONOS [/COLOR][COLOR skyblue]*TEMPORADA 7[/COLOR] </title>
 <link>$doregex[makelist]</link>
