@@ -208,7 +208,7 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 <item>
 		<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]TECNOTV[/B][/COLOR]  [COLOR lightslategray]  [/COLOR]</title>
 		<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/tecno.png</thumbnail> 
-		<externallink>http://tecnotv.xyz/addon/index.xml?NoUsesSinPermiso</externallink><fanart>Ibai/master/fanart.png </fanart>
+		<externallink>https://raw.githubusercontent.com/alfilodeloimposible/superibai/master/tecnotv.xml</externallink><fanart>Ibai/master/fanart.png </fanart>
 		</item>
 
 
