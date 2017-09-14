@@ -1,0 +1,133 @@
+
+    
+    
+	
+  
+			
+			
+			 
+		
+			
+		
+		
+		
+		
+		
+		<item><title>[COLOR skyblue]                           [B][ Deportes ADRYANLIST ] [/B] [/COLOR]</title><link>http://ignorame.ime</link><thumbnail>http://autismomadrid.es/wp-content/uploads/2015/06/Deporte-sin-barreras.jpg</thumbnail></item>
+				
+ 
+
+			
+ <item>
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]ACE[/COLOR][COLOR skyblue]STREAMS [/COLOR][/B]  [COLOR lightslategray] [I]Torrents Channels / Plexus Requerido[/I][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<externallink>http://adryanlist.org/adryan/plexus.xml</externallink>
+<thumbnail>http://autismomadrid.es/wp-content/uploads/2015/06/Deporte-sin-barreras.jpg</thumbnail>
+</item>
+
+
+
+
+<iem>
+<title> [COLOR lime]•[/COLOR]    [COLOR skyblue][B]STREAMM[/COLOR][COLOR skyblue]HD [/COLOR][/B]  [COLOR lightslategray] [I] [/I][/COLOR]</title>
+<link>$doregex[makelist]</link>
+
+
+<regex>
+            <name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param1]  - [makelist.param3] </title>
+<link>$doregex[link]</link>
+<thumbnail>http://autismomadrid.es/wp-content/uploads/2015/06/Deporte-sin-barreras.jpg</thumbnail>
+ ]]></listrepeat>
+            <expres><![CDATA[td>(.*?)<[\w\W\s]{0,30}href="(.*?)"[\w\W\s]{0,12}blank">(.*?)<]]></expres>
+            <page>http://www.streamm.eu/livesports.html</page>
+             <cookieJar></cookieJar>
+</regex>
+
+<regex>
+            <name>link</name>
+            <expres>["|\'](.*m3u8.*?)["|\']</expres>
+            <page>$doregex[link2]</page>
+             <cookieJar></cookieJar>
+</regex>
+
+<regex>
+            <name>link2</name>
+            <expres><![CDATA[iframe src="(.*?)"]]></expres>
+            <page>[makelist.param2]</page>
+             <cookieJar></cookieJar>
+</regex>
+<thumbnail>http://autismomadrid.es/wp-content/uploads/2015/06/Deporte-sin-barreras.jpg</thumbnail></item>
+
+
+
+<item>
+
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]STREAMS[/COLOR][COLOR skyblue]HD [/COLOR][/B]  [COLOR lightslategray] [I] [/I][/COLOR]</title>
+
+<link>$doregex[makelist]</link>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+   <title>    ..  [makelist.param2] </title>
+   <link>$doregex[get-id]</link>
+<regex>
+<name>get-id</name>
+<expres>file:"(.*?)"</expres>
+<page>$doregex[get-stream]</page>
+</regex>
+<regex>
+<name>get-stream</name>
+<expres>iframe src="(.*?)"</expres>
+<page>$doregex[get-page]</page>
+</regex>
+<regex>
+<name>get-page</name>
+<expres>videoiframe"\ssrc="(.*?)"</expres>
+<page>http://www.streamhd.eu[makelist.param1]</page>
+</regex>
+<thumbnail>http://autismomadrid.es/wp-content/uploads/2015/06/Deporte-sin-barreras.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[eventsmall.*?href="(.*?)">(.*?)<]]></expres>
+<page>http://www.streamhd.eu/</page>
+</regex>
+</item>
+
+
+
+
+
+
+ 
+<item>  
+<title> [COLOR lime]•[/COLOR]    [COLOR deepskyblue][B]WIZ[/COLOR][COLOR skyblue]HD [/COLOR][/B]  [COLOR lightslategray] [I] Agenda | Schedule* [/I][/COLOR]</title>
+<link>$doregex[makelist2]</link>
+
+
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+   <title>[COLOR lightblue] [B] [makelist2.param1] [/B]	[COLOR deepskyblue]  [makelist2.param3]    [/COLOR][/COLOR]   </title>
+<link>$doregex[makelist]</link>
+ 
+]]></listrepeat>
+<expres>sports'>(.*?)<[\w\W\s]{0,270}href='(.*?)'[\w\W\s]{0,50}right-margin'>(.*?)<</expres>
+<page>http://wizhdsports.is/embed_list.php</page>
+</regex>
+
+
+
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+   <title>[makelist.param1] - [COLOR deepskyblue]  [makelist2.param3] / [COLOR lightblue] [B] [makelist2.param1] [/B]   [/COLOR][/COLOR]   </title>
+<link>$doregex[url]</link>
+ 
+]]></listrepeat>
+<expres>wizhdsports.is\/live\/stream(.*?).html</expres>
+<page>[makelist2.param2]</page>
+</regex

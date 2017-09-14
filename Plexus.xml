@@ -1,0 +1,75 @@
+<SetViewMode>55</SetViewMode>
+
+
+
+
+<item>
+<title>[COLOR lime]•[/COLOR][COLOR aquamarine]  [B]LA LIGA[/B][/COLOR] [COLOR lightslategray](acestreams) [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<SetViewMode>55</SetViewMode>
+<title>[COLOR lightgreen][makelist.param1] [COLOR silver] [makelist.param2]  [COLOR skyblue] [makelist.param4][/COLOR][/COLOR][/COLOR]  [COLOR deepskyblue] [makelist.param5][/COLOR] </title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Adryanlist+[makelist.param4]</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://arenavision2017.tk/$doregex[canal]</page>
+			<referer>http://arenavision2017.tk/</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			<regex>
+			<name>canal</name> 
+			<expres>$pyFunction:'[makelist.param5]'.replace('1','01').replace('2','02').replace('3','03').replace('4','04').replace('5','05').replace('6','06').replace('7','07').replace('8','08').replace('9','09')</expres>
+			<page></page>
+			</regex>
+			
+			<thumbnail>http://s03.s3c.es/imag/_v0/770x420/3/a/3/Balon-Laliga-2016-2017.jpg</thumbnail>
+<fanart>http://files.laliga.es/seccion_logos/laliga-h-600x600.png</fanart>
+</item>	
+]]></listrepeat>
+<expres><![CDATA[230px">(.*?)<[\w\W\s]{0,50}px">(.*?)CEST[\w\W\s]{0,53}px">(.*?)<[\w\W\s]{0,53}SPANISH LA LIGA[\w\W\s]{0,50}px">(.*?)<[\w\W\s]{0,50}px">([0-9]+)]]></expres>
+<page>http://arenavision2017.tk/iguide</page>
+<Agent>Mozilla</Agent>
+<referer>http://arenavision2017.tk/iguide</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+
+<thumbnail>http://u.goal.com/245300/245344_news.jpg</thumbnail>
+</item>
+
+
+
+<item>
+<title>[COLOR lime]•[/COLOR][COLOR aquamarine]  [B]UEFA CHAMPIONS LEAGUE[/B][/COLOR] [COLOR lightslategray](acestreams) [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<SetViewMode>55</SetViewMode>
+<title>[COLOR lightgreen][makelist.param1] [COLOR silver] [makelist.param2]  [COLOR skyblue] [makelist.param4][/COLOR][/COLOR][/COLOR]  [COLOR deepskyblue] [makelist.param5][/COLOR] </title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Adryanlist+[makelist.param4]</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>https://arenavision.us/[makelist.param5]</page>
+			<referer>https://arenavision.us/</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			
+			<thumbnail>http://s03.s3c.es/imag/_v0/770x420/3/a/3/Balon-Laliga-2016-2017.jpg</thumbnail>
+<fanart>http://files.laliga.es/seccion_logos/laliga-h-600x600.png</fanart>
+</item>	
+]]></listrepeat>
+<expres><![CDATA[230px">(.*?)<[\w\W\s]{0,50}px">(.*?)CEST[\w\W\s]{0,53}px">(.*?)<[\w\W\s]{0,53}UEFA CHAMPIONS LEAGUE[\w\W\s]{0,50}px">(.*?)<[\w\W\s]{0,50}px">([0-9]+)]]></expres>
+<page>https://arenavision.us/iguide</page>
+<Agent>Mozilla</Agent>
+<referer>https://arenavision.us/iguide</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+
+<thumbnail>http://s03.s3c.es/imag/_v0/770x420/3/a/3/Balon-Laliga-2016-2017.jpg</thumbnail>
+</item>
+
+
