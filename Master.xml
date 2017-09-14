@@ -55,14 +55,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <externallink>https://raw.githubusercontent.com/alfilodeloimposible/superibai/master/listamaestra.xml</externallink>
 </item>
 
-
-
-<item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Acestreams[/COLOR] [COLOR lightslategray](Canales p2p) [/COLOR]</title>
-<link>http://ignorame</link><thumbnail>https://www.culturacuantica.com.ar/wp-content/uploads/ACE-STREAM-300.png</thumbnail><fanart>Ibai/master/fanart.png </fanart>
-<externallink>http://adryanlist.org/adryan/plexus.xml</externallink>
-</item>
-
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR aquamarine]  [B]La Liga[/B][/COLOR] [COLOR lightslategray](acestreams) [/COLOR]</title>
 <link>$doregex[makelist]</link>
