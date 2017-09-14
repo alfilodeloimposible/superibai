@@ -17,7 +17,7 @@
 
 
 <item>
-<title>                     [COLOR skyblue][B]    IBAITXO[/COLOR][COLOR lightslategray][/COLOR][COLOR deepskyblue]L I S T[/B][/COLOR] </title>	
+<title>                     [COLOR skyblue]**[B] RECOPILACIÓN DE ENLACES[/COLOR][COLOR lightslategray][/COLOR][COLOR deepskyblue]IBAITXO[/B][/COLOR] </title>	
 <info> Me gusta que los planes salgan bien </info>			
 
 <link>$doregex[makelist]</link>
@@ -30,7 +30,7 @@
 
 
 <item>
-<title>                [COLOR lightslategray]update: [COLOR lightblue][B]14[/B][/COLOR] SEPTIEMBRE 2017[/COLOR]      </title>
+<title>                [COLOR lightslategray]update: [COLOR lightblue][B]15[/B][/COLOR] SEPTIEMBRE 2017[/COLOR]      </title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
