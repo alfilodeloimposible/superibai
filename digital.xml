@@ -83,8 +83,8 @@
 <regex>
 <name>get-id</name>
 <expres>source: '(.*?)'</expres>
-<page>http://vergol.com</page>
-<referer>http://vergol.com/live/fox.php</referer>
+<page>http://vergol.com/live/fox.php</page>
+<referer>http://www.vercanalestv.com/ver-canal-fox-en-directo-y-online-las-24h-por-internet/</referer>
 <agent>iPad</agent>
 </regex>
 
