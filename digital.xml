@@ -4,37 +4,27 @@
 <regex>
 <name>get-id</name>
 <expres>source: '(.*?)'</expres>
-<page>http://vergol.com/</page>
-<referer>http://vergol.com/live/mtv.php</referer>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063</agent>
+<page>http://vergol.com/live/mtv.php</page>
+<referer>http://vercanalestv.com/tv/nacionales/mtv.html</referer>
+<agent>iPad</agent>
 </regex>
-<thumbnail>http://www.emeryweb.ch/shop/images/funcard6.jpg</thumbnail>   </item>
+<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
 
-
-<item>
-<title>[UPPERCASE][COLOR skyblue] Calle 13 [/UPPERCASE][/COLOR] </title>
-<link>$doregex[get-id]|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063</link>
-<regex>
-<name>GetPageUrl</name>
-<expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embedn.php?file=calltrees&width=650&height=400</page>
-
-</regex>
-<thumbnail>http://www.emeryweb.ch/shop/images/funcard6.jpg</thumbnail>   </item>
  
 
 
 
 <item>
-<title>[UPPERCASE][COLOR skyblue] Caza y Pesca [/UPPERCASE][/COLOR] </title>
-<link>$doregex[get-id]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<title>[UPPERCASE][COLOR skyblue] pesca [/UPPERCASE][/COLOR] </title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36</link>
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
 <page>http://livesports.pw/embedn.php?file=cazaypesca&width=650&height=400</page>
+<cookieJar></cookieJar>
 </regex>
 
-<thumbnail>http://www.emeryweb.ch/shop/images/funcard6.jpg</thumbnail>   </item>
+<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
 
 
 
@@ -51,7 +41,7 @@
 </regex>
 
 
-<thumbnail>http://www.emeryweb.ch/shop/images/funcard6.jpg</thumbnail>   </item>
+<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
  
 
  
@@ -70,7 +60,7 @@
 </regex>
 
 
-<thumbnail>http://www.emeryweb.ch/shop/images/funcard6.jpg</thumbnail>   </item>
+<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
  
  
 
@@ -86,7 +76,7 @@
 <agent>iPad</agent>
 </regex>
 
-<thumbnail>http://www.emeryweb.ch/shop/images/funcard6.jpg</thumbnail>   </item>
+<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
 
 
 
@@ -105,7 +95,7 @@
 </regex>
 
 
-<thumbnail>http://www.emeryweb.ch/shop/images/funcard6.jpg</thumbnail>   </item>
+<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
 
 
 
@@ -120,7 +110,7 @@
 <referer>http://vertelevisor.com/tv/nacionales/axn.html</referer>
 <agent>iPad</agent>
 </regex>
-<thumbnail>http://www.emeryweb.ch/shop/images/funcard6.jpg</thumbnail>   </item>
+<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
 
  
 
@@ -133,7 +123,7 @@
 <page>http://vergol.com/live2/tnt.php</page>
 <referer>http://vertelevisor.com/tv/nacionales/axn.html</referer>
 </regex>
-<thumbnail>http://www.emeryweb.ch/shop/images/funcard6.jpg</thumbnail>   </item>
+<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
  
  
  <item><title>[UPPERCASE][COLOR skyblue] Calle 13 [/UPPERCASE][/COLOR] </title>
