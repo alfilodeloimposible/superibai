@@ -1,13 +1,13 @@
 <item>
-<title>[UPPERCASE][COLOR skyblue] MTV [/UPPERCASE][/COLOR] </title>
-<link>$doregex[get-id]|User-Agent=iPad</link>
+<title>[UPPERCASE][COLOR skyblue] Calle 13[/UPPERCASE][/COLOR] </title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36</link>
 <regex>
-<name>get-id</name>
+<name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://vergol.com/live/mtv.php</page>
-<referer>http://vercanalestv.com/tv/nacionales/mtv.html</referer>
-<agent>iPad</agent>
+<page>http://livesports.pw/embedn.php?file=calltrees&width=650&height=400</page>
+<cookieJar></cookieJar>
 </regex>
+
 <thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
 
  
@@ -26,6 +26,18 @@
 
 <thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
 
+
+<item>
+<title>[UPPERCASE][COLOR skyblue] AxN [/UPPERCASE][/COLOR] </title>
+<link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embedn.php?file=cazaypesca&width=650&height=400</page>
+<cookieJar></cookieJar>
+</regex>
+
+<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
 
 
  
@@ -71,8 +83,8 @@
 <regex>
 <name>get-id</name>
 <expres>source: '(.*?)'</expres>
-<page>http://vergol.com/live/fox.php</page>
-<referer>http://vercanalestv.com/tv/nacionales/fox.html</referer>
+<page>http://vergol.com</page>
+<referer>http://vergol.com/live/fox.php</referer>
 <agent>iPad</agent>
 </regex>
 
