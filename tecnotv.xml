@@ -1,0 +1,59 @@
+<item>
+<title>[COLOR orange][B]TECNOTV[/B][/COLOR]   </title>
+<link>$doregex[openDialog]</link>
+<thumbnail>http://?</thumbnail>
+<fanart>https://images7.alphacoders.com/320/thumb-1920-320543.jpg</fanart>
+<externallink>http://ito.mx/tecnotv-latino-m3</externallink>
+<info>Series, Peliculas y Canales en vivo - la mejor seleccion de entretenimiento a un clic. Apoya el proyecto dando clic en la publicidad de nuestro sitio o realizando una donacion a donar@tecnotv.info</info>
+</item>
+
+<item>
+<title>[COLOR lightslategray]Actualización: [COLOR slategray][B]6[/B][/COLOR]/Sep/17[/COLOR] </title>
+<link>$doregex[openDialog]</link>
+</thumbnail><fanart>http://tecnotv.xyz/addon/fanart.jpg</fanart>
+<info>Series, Peliculas y Canales en vivo - la mejor seleccion de entretenimiento a un clic. Apoya el proyecto dando clic en la publicidad de nuestro sitio o realizando una donacion a donar@tecnotv.info</info>
+</item>
+
+<item>  
+<title>   [COLOR lime]fb.com/TecnotvOficial - Telegram @Tecnotv - www.tecnotv.info[/COLOR]</title>
+<link>_</link><thumbnail>http://tecnotv.info/logoss.png</thumbnail>
+<fanart>http://tecnotv.xyz/addon/fanart.jpg</fanart>
+<externallink>http://tecnotv.xyz/tv</externallink>
+<info>Series, Peliculas y Canales en vivo - la mejor seleccion de entretenimiento a un clic. Apoya el proyecto dando clic en la publicidad de nuestro sitio o realizando una donacion a donar@tecnotv.info</info>
+</item>	
+ 
+
+<item>
+<title>[COLOR white]*[/COLOR][COLOR white]  [B]Television[/B][/COLOR]</title>
+<link>http://ignorame</link><thumbnail>http://tecnotv.info/plugin/listas.jpg</thumbnail><fanart>http://tecnotv.xyz/addon/fanart.jpg</fanart>
+<externallink>http://tecnotv.xyz/addon/television.htm</externallink>
+<info>Series, Peliculas y Canales en vivo - la mejor seleccion de entretenimiento a un clic. Apoya el proyecto dando clic en la publicidad de nuestro sitio o realizando una donacion a donar@tecnotv.info</info>
+</item>
+
+<item>
+<title>[COLOR white]*[/COLOR][COLOR white]  [B]Peliculas[/B][/COLOR]</title>
+<link>http://ignorame</link><thumbnail>http://tecnotv.info/plugin/peliculas.jpg</thumbnail><fanart>http://tecnotv.xyz/addon/fanart.jpg</fanart>
+<externallink>http://tecnotv.xyz/addon/peliculas.htm</externallink>
+<info>Series, Peliculas y Canales en vivo - la mejor seleccion de entretenimiento a un clic. Apoya el proyecto dando clic en la publicidad de nuestro sitio o realizando una donacion a donar@tecnotv.info</info>
+</item>
+
+<item>
+<title>[COLOR white]*[/COLOR][COLOR white]  [B]Series[/B][/COLOR]</title>
+<link>http://ignorame</link><thumbnail>http://tecnotv.info/plugin/listas.jpg</thumbnail><fanart>http://tecnotv.xyz/addon/fanart.jpg</fanart>
+<externallink>http://tecnotv.xyz/addon/series.xml</externallink>
+<info>Series, Peliculas y Canales en vivo - la mejor seleccion de entretenimiento a un clic. Apoya el proyecto dando clic en la publicidad de nuestro sitio o realizando una donacion a donar@tecnotv.info</info>
+</item>
+
+<item>
+<title>[COLOR white]*[/COLOR][COLOR white]  [B]Documentales[/B][/COLOR]</title>
+<link>http://ignorame</link><thumbnail>http://tecnotv.info/plugin/listas.jpg</thumbnail><fanart>http://tecnotv.xyz/addon/fanart.jpg</fanart>
+<externallink>http://tecnotv.xyz/addon/youtube.xml</externallink>
+<info>Series, Peliculas y Canales en vivo - la mejor seleccion de entretenimiento a un clic. Apoya el proyecto dando clic en la publicidad de nuestro sitio o realizando una donacion a donar@tecnotv.info</info>
+</item>
+
+<item>
+<title>[COLOR white]*[/COLOR][COLOR white]  [B]Conciertos[/B][/COLOR]</title>
+<link>http://ignorame</link><thumbnail>http://tecnotv.info/plugin/listas.jpg</thumbnail><fanart>http://tecnotv.xyz/addon/fanart.jpg</fanart>
+<externallink>http://tecnotv.xyz/addon/conciertos.htm</externallink>
+<info>Series, Peliculas y Canales en vivo - la mejor seleccion de entretenimiento a un clic. Apoya el proyecto dando clic en la publicidad de nuestro sitio o realizando una donacion a donar@tecnotv.info</info>
+</item>

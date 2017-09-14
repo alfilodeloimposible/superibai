@@ -108,41 +108,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <externallink>https://raw.githubusercontent.com/alfilodeloimposible/superibai/master/seriesdetv.xml</externallink>
 </item>
 
-<item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]KIDS[/B] [/COLOR] [COLOR lightslategray]Peliculas Infantiles [/COLOR]</title>
-<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/kids.png</thumbnail><fanart>Ibai/master/fanart.png </fanart>
-<externallink>http://adryanlist.org/adryan/infantiles.xml</externallink>
-</item>
-
 
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  España[/COLOR] </title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/esp.png</thumbnail><fanart>Ibai/master/fanart.png </fanart>
-<externallink>http://adryanlist.org/adryan/esp.xml</externallink>
+<externallink>https://raw.githubusercontent.com/alfilodeloimposible/superibai/master/listamaestraEspa%C3%B1a.xml</externallink>
 </item>
-
-
-<item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Mexico[/COLOR] </title>
-<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/mexico.png</thumbnail><fanart>Ibai/master/fanart.png </fanart>
-<externallink>http://adryanlist.org/adryan/mx.xml</externallink>
-</item>
-
-<item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  TotalPlay [/COLOR] [COLOR lightslategray][I][/I] [/COLOR]  </title>
-<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/tp.png</thumbnail><fanart>Ibai/master/fanart.png </fanart>
-<externallink>http://adryanlist.org/adryan/totalp.xml</externallink>
-</item>
-
-<item>
-<title>[COLOR lime]•[/COLOR][COLOR aquamarine]  [B]IPTV[/B]   [/COLOR][COLOR lightslategray][B][World Servers Updated Daily][/B][/COLOR] </title>
-<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/iptv.png</thumbnail><fanart>Ibai/master/fanart.png </fanart>
-<externallink>http://adryanlist.org/adryan/iptv.xml</externallink>
-</item>
-
-
-
 
 
 <item>
@@ -150,10 +122,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail><fanart>Ibai/master/fanart.png </fanart>
 <externallink>http://adryanlist.org/adryan/ent.xml</externallink>
 </item>
-
-
-
-
 
 
 <item>
