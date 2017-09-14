@@ -52,14 +52,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Deportes[/COLOR] [COLOR lightslategray] [/COLOR]</title>
 <link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/deportes.png</thumbnail><fanart>Ibai/master/fanart.png </fanart>
-<externallink>http://adryanlist.org/adryan/deportes_adryan_list.xml</externallink>
+<externallink>https://raw.githubusercontent.com/alfilodeloimposible/superibai/master/listamaestra.xml</externallink>
 </item>
 
-<item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Extratime[/COLOR] [COLOR lightyellow]  [/B][/COLOR]</title>
-<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/extratime.png</thumbnail><fanart>Ibai/master/fanart.png </fanart>
-<externallink>http://adryanlist.org/adryan/multicanales.xml</externallink>
-</item>
+
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Acestreams[/COLOR] [COLOR lightslategray](Canales p2p) [/COLOR]</title>
