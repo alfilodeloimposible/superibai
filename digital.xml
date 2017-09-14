@@ -13,13 +13,12 @@
 
 <item>
 <title>[UPPERCASE][COLOR skyblue] Calle 13 [/UPPERCASE][/COLOR] </title>
-<link>$doregex[get-id]|User-Agent=iPad</link>
+<link>$doregex[get-id]|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063</link>
 <regex>
-<name>get-id</name>
+<name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw</page>
-<referer>http://livesports.pw/embedn.php?file=calltrees&width=650&height=400</referer>
-<agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063</agent>
+<page>http://livesports.pw/embedn.php?file=calltrees&width=650&height=400</page>
+
 </regex>
 <thumbnail>http://www.emeryweb.ch/shop/images/funcard6.jpg</thumbnail>   </item>
  
@@ -28,13 +27,11 @@
 
 <item>
 <title>[UPPERCASE][COLOR skyblue] Caza y Pesca [/UPPERCASE][/COLOR] </title>
-<link>$doregex[get-id]|User-Agent=iPad</link>
+<link>$doregex[get-id]|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
-<name>get-id</name>
+<name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw</page>
-<referer>http://livesports.pw/embedn.php?file=cazaypesca&width=650&height=400</referer>
-<agent>Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/48.0.2564.116 Chrome/48.0.2564.116 Safari/537.36</agent>
+<page>http://livesports.pw/embedn.php?file=cazaypesca&width=650&height=400</page>
 </regex>
 
 <thumbnail>http://www.emeryweb.ch/shop/images/funcard6.jpg</thumbnail>   </item>
