@@ -117,12 +117,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
-<item>
-<title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Entretenimiento[/COLOR]  [COLOR skyblue][/COLOR]   </title>
-<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/entretenimiento.png</thumbnail><fanart>Ibai/master/fanart.png </fanart>
-<externallink>http://adryanlist.org/adryan/ent.xml</externallink>
-</item>
-
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Television [COLOR skyblue]24/7[/COLOR][/COLOR] [/B] [COLOR lightslategray] [/COLOR]</title>
@@ -184,14 +178,6 @@ def GetLSProData(page_data,Cookie_Jar,m,):
 <thumbnail>http://adryanlist.org/adryan/img/internacional.jpg</thumbnail>
 </item>
 
-	
-	
-
-<item>
-		<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]SR REGIO[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
-		<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/regio.png</thumbnail> 
-		<externallink>http://srregio.net/</externallink><fanart>Ibai/master/fanart.png </fanart>
-		</item>
 
 <item>
 		<title>[COLOR lime]•[/COLOR][COLOR skyblue]  [B]J.H.G. MASTER[/B][/COLOR]  [COLOR lightslategray] [/COLOR]</title>
