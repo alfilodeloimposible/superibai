@@ -39,18 +39,18 @@
 <thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
 
 <item>
-<title>[UPPERCASE][COLOR skyblue] Being La Liga[/UPPERCASE][/COLOR] </title>
+<title>[UPPERCASE][COLOR skyblue] Being La Liga**++[/UPPERCASE][/COLOR] </title>
 <link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://www.sunhd.info/embedsa.php?c=111&width=650&height=410</page>
+<page>http://www.sunhd.info/embedsa.php?c=111&amp;width=650&amp;height=400</page>
 <cookieJar></cookieJar>
 </regex>
 
 <thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
 <item>
-<title>[UPPERCASE][COLOR skyblue] Being La Liga***[/UPPERCASE][/COLOR] </title>
+<title>[UPPERCASE][COLOR skyblue] Being La Liga[/UPPERCASE][/COLOR] </title>
 <link>$doregex[get-id]|User-Agent=iPad</link>
 <regex>
 <name>get-id</name>
@@ -69,7 +69,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embedn.php?file=cazaypesca&width=650&height=400</page>
+<page>http://livesports.pw/embedn.php?file=cazaypesca&amp;width=650&amp;height=400</page>
 <cookieJar></cookieJar>
 </regex>
 
@@ -164,15 +164,6 @@
 </regex>
 
 <thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
-
-<item>
-<title>[UPPERCASE][COLOR skyblue] #Movistar + Comedia [/UPPERCASE][/COLOR] </title>
-<link>$doregex[get-id]|User-Agent=iPad</link>
-<regex>
-<name>get-id</name>
-<expres>source: '(.*?)'</expres>
-<page>http://vergol.com/live/comedia.php</page>
-<referer><item>
 
 
 <title>[UPPERCASE][COLOR skyblue] #Movistar + Series[/UPPERCASE][/COLOR] </title>
