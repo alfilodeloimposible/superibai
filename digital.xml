@@ -182,6 +182,18 @@
 <thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>  
  </item>
 
+ 
+ <item>
+<title>[COLOR lime]**[/COLOR] [UPPERCASE][COLOR skyblue] Boing [/UPPERCASE][/COLOR] </title>
+<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://livesports.pw/embed.php?file=boing&width=650&height=400</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>  
+ </item>
 
 
 <item>
@@ -208,6 +220,18 @@
 </regex>
 <thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
 
+
+<item>
+<title>[COLOR lime]**[/COLOR] [UPPERCASE][COLOR skyblue] Prueba[/UPPERCASE][/COLOR] </title>
+<link>$doregex[get-id]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36</link>
+<regex>
+<name>get-id</name>
+<expres>source: '(.*?)'</expres>
+<page>http://iao.vision/share/tv-series/</page>
+<referer>http://iao.vision/share/</referer>
+<agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36</agent>
+</regex>
+<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
 
  
 
