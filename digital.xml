@@ -195,12 +195,12 @@
  
 
 
-<item><title>[UPPERCASE][COLOR skyblue] TNT [/UPPERCASE][/COLOR] </title>
+<item><title>[UPPERCASE][COLOR skyblue] axn [/UPPERCASE][/COLOR] </title>
 <link>$doregex[get-id]|User-Agent=iPad</link>
 <regex>
 <name>get-id</name>
 <expres>[",\'](h.*m3u8.*?)'</expres>
-<page>http://vergol.com/live2/tnt.php</page>
+<page>http://vergol.com/live/axn.php></page>
 <referer>http://vertelevisor.com/tv/nacionales/axn.html</referer>
 </regex>
 <thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
