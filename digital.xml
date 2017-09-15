@@ -147,16 +147,6 @@
 <expres>source: '(.*?)'</expres>
 <page>http://vergol.com/live/comedia.php</page>
 <referer><item>
-<!------------------------------------
-
-
-
-
-
-
-
----------->
-
 
 
 <title>[UPPERCASE][COLOR skyblue] #Movistar Series[/UPPERCASE][/COLOR] </title>
@@ -190,9 +180,16 @@
 <thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
 
 
-
-
-
+<item>
+<title>[UPPERCASE][COLOR skyblue] **Partidazo**[/UPPERCASE][/COLOR] </title>
+<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<regex>
+<name>GetPageUrl</name>
+<expres>source: '(.*?)'</expres>
+<page>http://www.fstream.me/sharedcdn/hembedplayer/verliga123456789/1/650/400/51f0264844075fa6abf2f61664e4b35e9a267a5186f96396472f5faceb131ba5</page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
 
 
 <item>
@@ -204,8 +201,6 @@
 <page>http://livesports.pw/embedn.php?file=disneychannel</page>
 <cookieJar></cookieJar>
 </regex>
-
-
 <thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
 
  
