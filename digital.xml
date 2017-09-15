@@ -169,10 +169,6 @@
 </regex>
 <thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>  
  </item>
- 
- 
-
-
 
 
 
@@ -191,21 +187,3 @@
  
 
 
-<item><title>[UPPERCASE][COLOR skyblue] axn [/UPPERCASE][/COLOR] </title>
-<link>$doregex[get-id]|User-Agent=iPad</link>
-<regex>
-<name>get-id</name>
-<expres>source: '(.*?)'</expres>
-<page>http://vergol.com/live/axn.php></page>
-<referer>http://vertelevisor.com/tv/nacionales/axn.html</referer>
-</regex>
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
- 
- 
- <item><title>[UPPERCASE][COLOR skyblue] Calle 13 [/UPPERCASE][/COLOR] </title>
-<link>$doregex[get-id]|User-Agent=iPad</link>
-<regex>
-<name>get-id</name>
-<expres>[",\'](h.*m3u8.*?)'</expres>
-<page>http://vergol.com/live/calle13.php</page>
-<referer>http://vertelevisor.com/tv/nacionale
