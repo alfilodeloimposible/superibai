@@ -1,15 +1,7 @@
 
 
 
-<item>
-<title>[UPPERCASE][COLOR skyblue] **Partidazo**[/UPPERCASE][/COLOR] </title>
-<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
-<regex>
-<name>GetPageUrl</name>
-<expres>source: '(.*?)'</expres>
-<page>http://www.fstream.me/sharedcdn/hembedplayer/verliga123456789/1/650/400/51f0264844075fa6abf2f61664e4b35e9a267a5186f96396472f5faceb131ba5</page>
-<cookieJar></cookieJar>
-</regex>
+
 
 
 <item>
@@ -24,7 +16,7 @@
 <thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
 
 
-<item><title>[UPPERCASE][COLOR skyblue] Acción [/UPPERCASE][/COLOR] </title>
+<item><title>[UPPERCASE][COLOR skyblue] #Movistar + Acción [/UPPERCASE][/COLOR] </title>
 <link>$doregex[get-id]|User-Agent=iPad</link>
 <regex>
 <name>get-id</name>
@@ -36,7 +28,7 @@
 <thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
 
 <item>
-<title>[UPPERCASE][COLOR skyblue] pesca [/UPPERCASE][/COLOR] </title>
+<title>[UPPERCASE][COLOR skyblue] Caza Y Pesca[/UPPERCASE][/COLOR] </title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36</link>
 <regex>
 <name>GetPageUrl</name>
@@ -123,7 +115,7 @@
 <thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
 
 <item>
-<title>[UPPERCASE][COLOR skyblue] #Movistar Estrenos [/UPPERCASE][/COLOR] </title>
+<title>[UPPERCASE][COLOR skyblue] #Movistar + Estrenos [/UPPERCASE][/COLOR] </title>
 <link>$doregex[get-id]|User-Agent=iPad</link>
 <regex>
 <name>get-id</name>
@@ -136,7 +128,7 @@
 <thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
 
 <item>
-<title>[UPPERCASE][COLOR skyblue] #Movistar DCine [/UPPERCASE][/COLOR] </title>
+<title>[UPPERCASE][COLOR skyblue] #Movistar + DCine [/UPPERCASE][/COLOR] </title>
 <link>$doregex[get-id]|User-Agent=iPad</link>
 <regex>
 <name>get-id</name>
@@ -149,7 +141,7 @@
 <thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
 
 <item>
-<title>[UPPERCASE][COLOR skyblue] #Movistar Comedia [/UPPERCASE][/COLOR] </title>
+<title>[UPPERCASE][COLOR skyblue] #Movistar + Comedia [/UPPERCASE][/COLOR] </title>
 <link>$doregex[get-id]|User-Agent=iPad</link>
 <regex>
 <name>get-id</name>
@@ -162,7 +154,7 @@
 <thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
 
 <item>
-<title>[UPPERCASE][COLOR skyblue] #Movistar Comedia [/UPPERCASE][/COLOR] </title>
+<title>[UPPERCASE][COLOR skyblue] #Movistar + Comedia [/UPPERCASE][/COLOR] </title>
 <link>$doregex[get-id]|User-Agent=iPad</link>
 <regex>
 <name>get-id</name>
@@ -171,7 +163,7 @@
 <referer><item>
 
 
-<title>[UPPERCASE][COLOR skyblue] #Movistar Series[/UPPERCASE][/COLOR] </title>
+<title>[UPPERCASE][COLOR skyblue] #Movistar + Series[/UPPERCASE][/COLOR] </title>
 <link>$doregex[get-id]|User-Agent=iPad</link>
 <regex>
 <name>get-id</name>
