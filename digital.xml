@@ -199,7 +199,7 @@
 <link>$doregex[get-id]|User-Agent=iPad</link>
 <regex>
 <name>get-id</name>
-<expres>[",\'](h.*m3u8.*?)'</expres>
+<expres>source: '(.*?)'</expres>
 <page>http://vergol.com/live/axn.php></page>
 <referer>http://vertelevisor.com/tv/nacionales/axn.html</referer>
 </regex>
