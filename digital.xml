@@ -165,7 +165,7 @@
 
 <thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
 
-
+<item>
 <title>[UPPERCASE][COLOR skyblue] #Movistar + Series[/UPPERCASE][/COLOR] </title>
 <link>$doregex[get-id]|User-Agent=iPad</link>
 <regex>
@@ -187,7 +187,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embedn.php?file=disneychannel</page>
+<page>http://vergol.com/live3/beinsport.php</page>
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
