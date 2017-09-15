@@ -25,7 +25,9 @@
 <referer>http://www.vercanalestv.com/ver-canal-plus-accion-online-y-en-directo-gratis-las-24h-por-internet/</referer>
 <agent>iPad</agent>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
+<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   
+</item>
+
 
 <item>
 <title>[UPPERCASE][COLOR skyblue] Caza Y Pesca[/UPPERCASE][/COLOR] </title>
@@ -36,7 +38,8 @@
 <page>http://livesports.pw/embedn.php?file=cazaypesca&width=650&height=400</page>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
+<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   
+</item>
 
 <item>
 <title>[UPPERCASE][COLOR skyblue] Being La Liga**++[/UPPERCASE][/COLOR] </title>
@@ -47,8 +50,10 @@
 <page>http://www.sunhd.info/embedsa.php?c=111&amp;width=650&amp;height=400</page>
 <cookieJar></cookieJar>
 </regex>
+<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   
+</item>
 
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
+
 <item>
 <title>[UPPERCASE][COLOR skyblue] Being La Liga[/UPPERCASE][/COLOR] </title>
 <link>$doregex[get-id]|User-Agent=iPad</link>
@@ -59,8 +64,8 @@
 <referer>http://www.vipgoal.net/C+Liga/35576/Canal-plus-liga-en-directo.html</referer>
 <agent>iPad</agent>
 </regex>
-
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
+<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>  
+ </item>
 
 
 <item>
@@ -72,8 +77,8 @@
 <page>http://livesports.pw/embedn.php?file=cazaypesca&amp;width=650&amp;height=400</page>
 <cookieJar></cookieJar>
 </regex>
-
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
+<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>  
+ </item>
 
 
  
@@ -87,9 +92,8 @@
 <page>http://livesports.pw/embedn.php?file=sysfesp&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
-
-
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
+<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>  
+ </item>
  
 
  
@@ -106,9 +110,8 @@
 <page>http://livesports.pw/embedn.php?file=foxespana&amp;width=650&amp;height=397</page>
 <cookieJar></cookieJar>
 </regex>
-
-
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
+<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>  
+ </item>
  
  
 
@@ -123,8 +126,8 @@
 <referer>http://www.vercanalestv.com/canal-plus-hd-online-y-gratis-las-24-en-vivo/</referer>
 <agent>iPad</agent>
 </regex>
-
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
+<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   
+</item>
 
 <item>
 <title>[UPPERCASE][COLOR skyblue] #Movistar + Estrenos [/UPPERCASE][/COLOR] </title>
@@ -136,7 +139,6 @@
 <referer>http://www.vercanalestv.com/ver-canal-plus-estrenos-en-directo-y-online-las-24h/</referer>
 <agent>iPad</agent>
 </regex>
-
 <thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
 
 <item>
@@ -149,7 +151,6 @@
 <referer>http://www.vercanalestv.com/ver-canal-plus-dcine-en-vivo-y-online-por-internet-las-24h/</referer>
 <agent>iPad</agent>
 </regex>
-
 <thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
 
 <item>
@@ -162,7 +163,6 @@
 <referer>http://www.vercanalestv.com/ver-canal-plus-comedia-online-y-en-directo-gratis-las-24h-por-internet/</referer>
 <agent>iPad</agent>
 </regex>
-
 <thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
 
 <item>
@@ -176,21 +176,20 @@
 <agent>iPad</agent>
 </regex>
 <thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item></referer>
-<agent>iPad</agent>
-</regex>
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
+
 
 
 <item>
-<title>[UPPERCASE][COLOR skyblue] Disney Channel [/UPPERCASE][/COLOR] </title>
-<link>$doregex[GetPageUrl]|User-Agent=|User-Agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+WOW64%3B+Trident%2F7.0%3B+rv%3A11.0%29+like+Gecko</link>
+<title>[UPPERCASE][COLOR skyblue] #Being La Liga[/UPPERCASE][/COLOR] </title>
+<link>$doregex[get-id]|User-Agent=iPad</link>
 <regex>
-<name>GetPageUrl</name>
+<name>get-id</name>
 <expres>source: '(.*?)'</expres>
 <page>http://vergol.com/live3/beinsport.php</page>
-<cookieJar></cookieJar>
+<referer>http://www.vertelevisor.com/bein-sport-en-directo-gratis-online-por-internet-en-vivo/</referer>
+<agent>iPad</agent>
 </regex>
-<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
+<thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item></referer>
 
  
 
