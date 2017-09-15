@@ -51,7 +51,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  Deportes[/COLOR] [COLOR lightslategray] [/COLOR]</title>
-<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/deportes.png</thumbnail><fanart>Ibai/master/fanart.png </fanart>
+<link>http://ignorame</link><thumbnail>https://www.directv.com.ar/ofertas/img/Bg-ProductosServicios.png</thumbnail><fanart>Ibai/master/fanart.png </fanart>
 <externallink>https://raw.githubusercontent.com/alfilodeloimposible/superibai/master/listamaestra.xml</externallink>
 </item>
 
@@ -86,7 +86,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <Agent>Mozilla</Agent>
 <referer>http://arenavision2017.tk/iguide</referer>
 <setcookie>beget=begetok</setcookie>
-</regex><thumbnail>http://adryanlist.org/adryan/img/laliga.png</thumbnail>
+</regex><thumbnail>http://files.laliga.es/seccion_logos/laliga-h-1200x1200.png</thumbnail>
 	<fanart>Ibai/master/fanart.png </fanart>
 	
 </item>
@@ -96,14 +96,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Peliculas[/B] [/COLOR] [COLOR lightslategray]  [/COLOR]</title>
-<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/peliculas.png</thumbnail><fanart>Ibai/master/fanart.png </fanart>
+<link>http://ignorame</link><thumbnail>>http://adryanlist.org/adryan/img/peliculas.png</thumbnail><fanart>Ibai/master/fanart.png </fanart>
 <externallink>https://raw.githubusercontent.com/alfilodeloimposible/superibai/master/peliculas.xml</externallink>
 </item>
 
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Series de TV[/B] [/COLOR] [COLOR lightslategray] [/COLOR]</title>
-<link>http://ignorame</link><thumbnail>http://adryanlist.org/adryan/img/series.png</thumbnail>
+<link>http://ignorame</link><thumbnail>http://4.bp.blogspot.com/-v0OLlbDruf4/UnbP1nJ3CLI/AAAAAAABICE/kxHC71MF8Us/s1600/0AFA4695B.png</thumbnail>
 	<fanart>Ibai/master/fanart.png </fanart>
 <externallink>https://raw.githubusercontent.com/alfilodeloimposible/superibai/master/seriesdetv.xml</externallink>
 </item>
