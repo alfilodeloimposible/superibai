@@ -1,14 +1,13 @@
-<title>[UPPERCASE][COLOR skyblue] #Movistar Partidazo[/UPPERCASE][/COLOR] </title>
+<item><title>[UPPERCASE][COLOR skyblue]part[/UPPERCASE][/COLOR] </title>
 <link>$doregex[get-id]|User-Agent=iPad</link>
 <regex>
 <name>get-id</name>
-<expres>source: '(.*?)'</expres>
+<expres>[",\'](h.*m3u8.*?)'</expres>
 <page>http://www.fstream.me/sharedcdn/hembedplayer/verliga123456789/1/650/400/51f0264844075fa6abf2f61664e4b35e9a267a5186f96396472f5faceb131ba5</page>
-<referer>http://www.vercanalestv.com/ver-canal-plus-partidazo-online-y-directo-gratis/</referer>
+<referer>http://www.vercanalestv.com/ver-canal-plus-partidazo-online-y-directo-gratis</referer>
 <agent>iPad</agent>
 </regex>
 <thumbnail>http://adryanlist.org/adryan/img/esp.jpg</thumbnail>   </item>
-
 
 
 
