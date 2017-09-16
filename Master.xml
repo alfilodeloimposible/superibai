@@ -128,7 +128,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>https://hls-ord-1a.vaughnsoft.net/ams/live/live_[makelist.param1]/chunklist.m3u8</link>
 
 
-<thumbnail>http://cdn.vaughnsoft.com/vaughnsoft/vaughn/img_profiles/[makelist.param2]_320.jpg</thumbnail>
+<thumbnail>http://st2.depositphotos.com/3562409/8010/i/950/depositphotos_80106216-stock-photo-4k-ultra-hd-television.jpg</thumbnail>
 <fanart>Ibai/master/fanart.png </fanart>
 ]]></listrepeat>
 <expres>a href="/(.*?)"[\w\W\s]{0,22}browseTxt">(.*?)<</expres>
