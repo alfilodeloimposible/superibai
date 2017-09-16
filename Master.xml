@@ -17,7 +17,7 @@
 
 
 <item>
-<title>                     [COLOR skyblue]**[B] RECOPILACIÓN DE ENLACES[/COLOR][COLOR lightslategray][/COLOR][COLOR deepskyblue]IBAITXO[/B][/COLOR] </title>	
+<title>                     [COLOR skyblue]**[B] RECOPILACIÓN DE ENLACES[/COLOR][COLOR ghostwhite][/COLOR][COLOR deepskyblue]IBAITXO[/B][/COLOR] </title>	
 <info> Me gusta que los planes salgan bien </info>			
 
 <link>$doregex[makelist]</link>
@@ -30,7 +30,7 @@
 
 
 <item>
-<title>                [COLOR lightslategray]update: [COLOR lightblue][B]***[/B][/COLOR]  16 SEPTIEMBRE 2017[/COLOR]      </title>
+<title>                [COLOR royalblue]update: [COLOR lightblue][B]***[/B][/COLOR]  16 SEPTIEMBRE 2017[/COLOR]      </title>
 <link>$doregex[openDialog]</link>
 <regex>
 <name>openDialog</name>
@@ -94,7 +94,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Lista supermospi[/B] [/COLOR] [COLOR lightslategray]  [/COLOR]</title>
-<link>http://ignorame</link><thumbnail>>http://adryanlist.org/adryan/img/peliculas.png</thumbnail><fanart>Ibai/master/fanart.png </fanart>
+<link>http://ignorame</link><thumbnail>http://www.smokewindow.com/images/contacto.png</thumbnail><fanart>Ibai/master/fanart.png </fanart>
 <externallink>https://raw.githubusercontent.com/alfilodeloimposible/superibai/master/listasupermospitv.xml</externallink>
 </item>
 
@@ -103,7 +103,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <item>
 <title>[COLOR lime]•[/COLOR][COLOR deepskyblue]  [B]Peliculas[/B] [/COLOR] [COLOR lightslategray]  [/COLOR]</title>
-<link>http://ignorame</link><thumbnail>>http://adryanlist.org/adryan/img/peliculas.png</thumbnail><fanart>Ibai/master/fanart.png </fanart>
+<link>http://ignorame</link><thumbnail>>http://www.smokewindow.com/images/contacto.png</thumbnail><fanart>Ibai/master/fanart.png </fanart>
 <externallink>https://raw.githubusercontent.com/alfilodeloimposible/superibai/master/peliculas.xml</externallink>
 </item>
 
